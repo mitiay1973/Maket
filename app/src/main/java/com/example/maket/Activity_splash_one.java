@@ -22,7 +22,7 @@ public class Activity_splash_one extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent mainIntent = new Intent(Activity_splash_one.this, MainActivity.class);
+                Intent mainIntent = new Intent(Activity_splash_one.this, Login.class);
                 Activity_splash_one.this.startActivity(mainIntent);
                 Activity_splash_one.this.finish();
             }
